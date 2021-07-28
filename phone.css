@@ -1,12 +1,13 @@
 .navbar{
     display: flex;
-    height: 9vh;
+    height: 60px;
     align-items: flex-start;
     transition: ease-in 0.4s;
 }
 
 .logo{
     transform: translate(0px, 17px);
+    text-align: left;
     width: 5000px;
     font-size: 1.1rem;
 }
