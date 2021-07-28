@@ -44,7 +44,7 @@ function myFunction(x) {
     componentContainer.style.transform = "translate(0%, -150%)";
     searchFormContainer.style.transform = "translate(3.5%, -150%)";
     // componentContainer.style.display = "none";
-    navbar.style.height = "9vh"
+    navbar.style.height = "60px"
     componentContainer.style.opacity = "0";
     componentDisplayed = false
   }
