@@ -1,0 +1,17 @@
+
+.left-component li{
+    padding: 10px 5px;
+}
+
+.dropdown{
+    transform: translate(-8px, 0px);
+}
+
+.dropdown li{
+    padding: 5px 15px;
+    /* margin: 0px 5vw; */
+}
+
+.dropdown li a{
+    color: cornsilk;
+}

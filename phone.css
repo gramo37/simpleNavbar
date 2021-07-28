@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    height: 9vh;
+    align-items: flex-start;
+    transition: ease-in 0.4s;
+}
+
+.logo{
+    transform: translate(0px, 17px);
+    width: 5000px;
+    font-size: 1.1rem;
+}
+
+.components-container{
+    position: absolute;
+    left: -15px;
+    top: 44px;
+    display: flex;
+    flex-direction: column;
+    transition: ease-in 0.4s;
+    transform: translate(0%, -150%);
+}
+
+.left-component{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-component li a{
+    font-size: 1rem;
+}
+
+.search-form{
+    transition: all 0.4s;
+    width: 100%;
+    padding-bottom: 10px;
+    transform: translate(3.5%, -150%);
+}
+
+.search-bar{
+    width: 69%;
+}
+
+.search-button{
+    padding: 0px;
+    width: 27.5%;
+    font-size: 0.7rem;
+}
+
+#hamburger-icon{
+    display: flex;
+    transform: translate(0px, 9px);
+}
+
+.hamburger-icon-container{
+    margin-right: 10px;
+}
